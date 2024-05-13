@@ -12,7 +12,7 @@ public class DemoController {
     // localhost:8080/api/v1/hello
     @GetMapping("/hello")
     public String getHello() {
-        return "Hello World";
+        return "Hello World After CI/CD";
     }
 
     // localhost:8080/api/v1/msg/goobjob    
