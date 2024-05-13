@@ -18,6 +18,6 @@ public class DemoController {
     // localhost:8080/api/v1/msg/goobjob    
     @GetMapping("/msg/{msg}")
     public String getMsg(@PathVariable String msg) {
-        return "Your msg is " + msg;
+        return "Your msg is " + msg + " > IP: 13.125.144.139";
     }
 }
